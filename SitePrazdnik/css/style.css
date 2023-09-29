@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0 35px;
+    background-color: #afd3fd;
+    display: flex;
+    align-items: center;
+    height: 175px;
+    gap: 80px;
+    overflow: hidden;
+}
+
+.search-bar{
+    flex: 0 1 100%;
+    min-width: 200px;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    width: 100%;
+    height: 42px;
+    border-radius: 30px;
+}
+
+.search-bar input:focus {
+    outline: 2px solid transparent;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+header nav li {
+    display: inline-block;
+    font-size: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.logo img{
+    width: 228px;
+    height: 130px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+section{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    color: white;
+    border-bottom: 10px solid #afd3fd;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tile{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.w-100{
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+.w-50{
+    width: 50%;
+    flex: 0 0 50%;
+}
+
+.w-65{
+    width: 65%;
+    flex: 0 0 65%;
+}
+
+.w-35{
+    width: 35%;
+    flex: 0 0 35%;
+}
+
+.ml-15{
+    margin-left: 15%;
+}
+
+.home {
+    background-image: url("../assets/Attachments_ya@artemzimin.ru_2021-06-30_09-07-26/17.jpg");
+}
+
+.sales {
+    background-image: url("../assets/Attachments_ya@artemzimin.ru_2021-06-30_09-07-26/15.jpg");
+}
+
+.services {
+    background-image: url("../assets/Attachments_ya@artemzimin.ru_2021-06-30_09-07-26/23.jpg");
+}
+
+.buys {
+    background-image: url("../assets/Attachments_ya@artemzimin.ru_2021-06-30_09-07-26/26.jpg");
+}
+
+footer {
+    padding: 35px;
+    background-color: #afd3fd;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    min-height: 188px;
+    overflow: hidden;
+}
+
+footer .phone {
+    font-size: 36px;
+    white-space: nowrap;
+}
+
+footer .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .buttons .button {
+    background-color: #ffffff;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
